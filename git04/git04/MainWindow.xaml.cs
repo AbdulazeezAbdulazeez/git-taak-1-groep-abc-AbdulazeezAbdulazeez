@@ -18,7 +18,61 @@ namespace git04
     {
         public MainWindow()
         {
+
             InitializeComponent();
         }
+
+        private void roodPNG_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.Red;
+        }
+
+        private void geelPng_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.Yellow;
+        }
+
+        private void groenPNG_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.Green;
+        }
+
+        private void blauw_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.Blue;
+        }
+
+        private void roodPNG_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.LightGray;
+
+        }
+
+        private void geelPng_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.LightGray;
+
+        }
+
+        private void groenPNG_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.LightGray;
+
+        }
+
+        private void blauw_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Mainwindow.Background = Brushes.LightGray;
+
+        }
     }
+
+
+
 }
+
+
+
+
+
+      

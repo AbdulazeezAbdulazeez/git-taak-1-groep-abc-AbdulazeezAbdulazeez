@@ -6,10 +6,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:git04"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Name="Mainwindow">
+    
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="38,37,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="51" Width="315" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,37,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="51" Width="315" FontSize="24"/>
         <Image Name="pxlLogo" HorizontalAlignment="Left" Height="100" Margin="657,12,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image MouseLeave="roodPNG_MouseLeave" MouseEnter="roodPNG_MouseEnter" Name="roodPNG" HorizontalAlignment="Left" Height="150" Margin="120,105,0,0" VerticalAlignment="Top" Width="150" Source="/Rood.png" RenderTransformOrigin="0.5,0.5"/>
+        <Image MouseLeave="geelPng_MouseLeave" MouseEnter="geelPng_MouseEnter" Name="geelPng" HorizontalAlignment="Center" Height="150" Margin="0,105,0,0" VerticalAlignment="Top" Width="150" Source="/Geel.png"/>
+        <Image MouseLeave="groenPNG_MouseLeave" MouseEnter="groenPNG_MouseEnter" Name="groenPNG" HorizontalAlignment="Left" Height="150" Margin="120,232,0,0" VerticalAlignment="Top" Width="150" Source="/Groen.png"/>
+        <Image MouseLeave="blauw_MouseLeave" MouseEnter="blauw_MouseEnter" Name="blauw" HorizontalAlignment="Center" Height="150" Margin="0,232,0,0" VerticalAlignment="Top" Width="150" Source="/Blauw.png" />
+
 
     </Grid>
 </Window>
