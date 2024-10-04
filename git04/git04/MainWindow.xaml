@@ -9,5 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="38,37,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="51" Width="315" FontSize="36"/>
+        <Image Name="pxlLogo" HorizontalAlignment="Left" Height="100" Margin="657,12,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+
     </Grid>
 </Window>
