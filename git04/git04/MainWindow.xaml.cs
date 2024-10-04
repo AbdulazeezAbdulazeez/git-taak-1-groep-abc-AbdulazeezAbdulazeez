@@ -69,34 +69,35 @@ namespace git04
         private void roodPNG_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = ("#FF0000");
+            informatieTekstBox.Text = ("Rood is de kleur van warmte");
 
         }
 
         private void geelPng_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = ("#FFFF00");
+            informatieTekstBox.Text = ("Geel is de kleur van levenslust");
 
         }
 
         private void groenPNG_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = ("#008000");
+            informatieTekstBox.Text = ("Groen is de kleur van genezing");
 
         }
 
         private void blauw_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcode.Text = ("#0000FF");
+            informatieTekstBox.Text = ("Blauw is de kleur van intelligentie");
 
         }
     }
 
-    
+
 
 }
 
 
 
-
-
-      
