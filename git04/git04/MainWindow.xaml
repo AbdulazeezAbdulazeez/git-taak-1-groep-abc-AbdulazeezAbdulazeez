@@ -7,14 +7,17 @@
         xmlns:local="clr-namespace:git04"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Name="Mainwindow">
-    
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="38,37,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="51" Width="315" FontSize="24"/>
+
+    <Grid Margin="0,0,-20,-16">
+
+        <TextBlock HorizontalAlignment="Left" Margin="34,25,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="51" Width="315" FontSize="24"/>
         <Image Name="pxlLogo" HorizontalAlignment="Left" Height="100" Margin="657,12,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
-        <Image MouseLeave="roodPNG_MouseLeave" MouseEnter="roodPNG_MouseEnter" Name="roodPNG" HorizontalAlignment="Left" Height="150" Margin="120,105,0,0" VerticalAlignment="Top" Width="150" Source="/Rood.png" RenderTransformOrigin="0.5,0.5"/>
-        <Image MouseLeave="geelPng_MouseLeave" MouseEnter="geelPng_MouseEnter" Name="geelPng" HorizontalAlignment="Center" Height="150" Margin="0,105,0,0" VerticalAlignment="Top" Width="150" Source="/Geel.png"/>
-        <Image MouseLeave="groenPNG_MouseLeave" MouseEnter="groenPNG_MouseEnter" Name="groenPNG" HorizontalAlignment="Left" Height="150" Margin="120,232,0,0" VerticalAlignment="Top" Width="150" Source="/Groen.png"/>
-        <Image MouseLeave="blauw_MouseLeave" MouseEnter="blauw_MouseEnter" Name="blauw" HorizontalAlignment="Center" Height="150" Margin="0,232,0,0" VerticalAlignment="Top" Width="150" Source="/Blauw.png" />
+        <Image MouseDown="roodPNG_MouseDown" MouseLeave="roodPNG_MouseLeave" MouseEnter="roodPNG_MouseEnter" Name="roodPNG" HorizontalAlignment="Left" Height="100" Margin="120,78,0,0" VerticalAlignment="Top" Width="150"  Source="/Rood.png" RenderTransformOrigin="0.5,0.5"/>
+        <Image MouseDown="geelPng_MouseDown" MouseLeave="geelPng_MouseLeave" MouseEnter="geelPng_MouseEnter" Name="geelPng" HorizontalAlignment="Center" Height="100" Margin="0,81,0,0" VerticalAlignment="Top" Width="150" Source="/Geel.png"/>
+        <Image MouseDown="groenPNG_MouseDown" MouseLeave="groenPNG_MouseLeave" MouseEnter="groenPNG_MouseEnter" Name="groenPNG" HorizontalAlignment="Left" Height="100" Margin="120,189,0,0" VerticalAlignment="Top" Width="150" Source="/Groen.png"/>
+        <Image MouseDown="blauw_MouseDown" MouseLeave="blauw_MouseLeave" MouseEnter="blauw_MouseEnter" Name="blauw" HorizontalAlignment="Center" Height="100" Margin="0,189,0,0" VerticalAlignment="Top" Width="150" Source="/Blauw.png" />
+        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="49,303,0,0" VerticalAlignment="Top" Width="107" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Margin="178,311,0,0" TextWrapping="Wrap" Text="" Name="kleurcode" VerticalAlignment="Top" Width="300" Height="40" FontSize="20"/>
 
 
     </Grid>

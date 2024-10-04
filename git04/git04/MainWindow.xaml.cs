@@ -65,9 +65,33 @@ namespace git04
             Mainwindow.Background = Brushes.LightGray;
 
         }
+
+        private void roodPNG_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = ("#FF0000");
+
+        }
+
+        private void geelPng_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = ("#FFFF00");
+
+        }
+
+        private void groenPNG_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = ("#008000");
+
+        }
+
+        private void blauw_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcode.Text = ("#0000FF");
+
+        }
     }
 
-
+    
 
 }
 
